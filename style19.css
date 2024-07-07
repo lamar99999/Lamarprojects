@@ -41,7 +41,8 @@ body {
     font-style:oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    text-shadow: 1px 1px black;
+    
+    text-shadow: 1px 0.5px black;
 }
 .classA {
     font-size: 22px;
@@ -49,6 +50,7 @@ body {
     font-style:italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
+    
     text-shadow: 1px 1px black;
 }
 #myGallery {
