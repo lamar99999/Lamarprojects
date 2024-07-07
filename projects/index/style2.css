@@ -1,0 +1,38 @@
+h2 {
+    color: rgba(243, 159, 194, 0.997);
+    font-style: italic;
+    
+}
+#firstParagraph {
+    color: rgb(77, 76, 76);
+    margin-top: 30px ;
+}
+#secondButton {
+     background-color: rgb(0, 0, 0);
+     color:rgb(255, 255, 255);
+     border-radius: 4px;
+}
+#secondButton:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+label {
+    color: rgb(232, 139, 189);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+#backIcon {
+    background-color:black;
+    color: white;
+    border-radius: 4px;
+}
+#backIcon:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border-radius: 4px;
+}

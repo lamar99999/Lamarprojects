@@ -1,0 +1,32 @@
+.colorRed {
+    color: #f897c1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.colorPink {
+    color: #b7a9ad;
+    font-size: 19px;
+}
+#thirdButton {
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
+#thirdButton:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+#thirdParagraph {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#firstIcon {
+    color: #c9babe;
+}
+img {
+    width: 200px;
+    height: 230px;
+}

@@ -1,0 +1,34 @@
+.firstH2 {
+    color: rgb(244, 103, 173);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.fourthParagraph {
+    color: #db59ff;
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+}
+#fourthButton {
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
+#fourthButton:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+#secondIcon {
+    color: #f097cb;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:500;
+}
+img {
+    width: 300px;
+}

@@ -1,0 +1,29 @@
+.fourthH2 {
+    color: rgb(245, 122, 159);
+}
+.seventhParagraph {
+    color: rgb(50, 156, 243);
+}
+#seventhParagraph {
+    color: rgba(125, 228, 129, 0.967);
+}
+#seventhButton {
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
+#seventhButton:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+#fifthIcon {
+    color: rgb(144, 232, 151);
+}
+img {
+    width: 400px;
+    height: 230px;
+}

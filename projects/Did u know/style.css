@@ -1,0 +1,69 @@
+#carouselDiv {
+    background-image: linear-gradient(rgb(255, 210, 119),rgb(255, 255, 255));
+    padding: 20px;
+    height: 60vh;
+    display: flex;
+    align-items: center;                                          
+}
+
+img {
+    height: 40vh;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 50px;
+    border: 8px solid black;
+    background-size: cover;
+}
+
+
+#myH1 {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 37px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.secondH1 {
+    font-style: italic;
+    font-size: 32px;
+    color:rgb(255, 198, 98);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+li {
+    color: rgb(255, 198, 101);
+    font-size: 20px;
+}
+#secondDiv {
+    background-image: linear-gradient(white,rgb(255, 208, 115));
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#myIcon {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.myH3 {
+    font-style: italic;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#myH2 {
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+.myButton {
+    color: white ;
+    background-color: rgb(255, 208, 121);
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+

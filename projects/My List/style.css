@@ -1,0 +1,67 @@
+body {
+    background-color: azure;
+}
+
+#mainDiv {
+    width: 90%;
+    max-width: 600px;
+    background-color: #eee;
+    padding: 40px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: -110%;
+    left: 50%;
+    transform: translate(-50%);
+    animation-name: anim1;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+}
+
+#myInput {
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 13px;
+
+}
+#myH1 { 
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#myButton {
+    margin: 20px;
+    padding: 8px;
+    border: none;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    border-radius: 7px;
+    font-style: italic;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+
+@keyframes anim1 {
+    from {
+        opacity: 0;
+
+    }
+
+    to {
+        opacity: 1;
+        bottom: 50vh;
+        transform: translate(-50%, 50%);
+    }
+}

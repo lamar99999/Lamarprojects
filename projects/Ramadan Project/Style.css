@@ -1,0 +1,71 @@
+.card {
+    width: 70%;
+    background-image: url(images/ramadan2.jpg);
+    background-size: cover;
+    text-align: center;
+    padding:20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 30px #808080b8;
+  }
+  .card img {
+    width: 40%;
+    max-width: 160px;
+    animation-name: anim1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .card h1 {
+    font-size: 35px;
+    color: rgb(246, 211, 174);
+    font-family: "Noto Nastaliq Urdu", serif;
+  }
+  
+  .card p {
+    font-size: 30px;
+    color: #B9DAD7;
+    font-family: "Noto Nastaliq Urdu", serif;
+  }
+  
+  .card i {
+    font-size: 40px;
+    color: #d2d2d2;
+  }
+
+  button{
+    background-color: rgb(193, 193, 193);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    bottom: 12;
+  }
+
+
+
+  @keyframes anim1 {
+    
+    0% {
+      transform: rotate(20deg);
+      filter: brightness(1) drop-shadow(10px 10px 10px #808080);
+    }
+  
+    50% {
+      filter: brightness(0.3);
+    }
+  
+    100% {
+      transform: rotate(-20deg);
+      filter: brightness(1) drop-shadow(10px 10px 10px #808080);
+    }
+  
+  }
