@@ -1,5 +1,5 @@
 body {
-    background-color:#a7917bf9;
+    background-color:#a5907a;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -55,7 +55,7 @@ body {
 }
 #myGallery {
     font-size: larger;
-    color: #998470;
+    color: #9a8670f9;
     font-weight: bold;
 }
 #myGallery:active {
