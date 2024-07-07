@@ -33,6 +33,7 @@ body {
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 200px;
+    text-shadow: 1px 1px black;
 }
 #myH3 {
     font-size: 22px;
@@ -40,6 +41,7 @@ body {
     font-style:oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
+    text-shadow: 1px 1px black;
 }
 .classA {
     font-size: 22px;
@@ -47,6 +49,7 @@ body {
     font-style:italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
+    text-shadow: 1px 1px black;
 }
 #myGallery {
     font-size: larger;
