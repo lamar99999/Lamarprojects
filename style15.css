@@ -1,12 +1,12 @@
 #firstTitle {
-    color: #e6cda9f3;
+    color:#d1b28c;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 55px;
     text-align: center;
 }
 
 #secondTitle {
-    color: rgb(166, 166, 166);
+    color: #78784f;
     text-align: center;
     font-size: 34px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -17,7 +17,9 @@
     width: 80%;
     max-width: 600px;
     height: 500px;
-    background-image: linear-gradient(rgb(255, 225, 186),rgb(37, 37, 37));
+    background-image:url(images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 10px;
     border-radius: 20px;
     border-color: rgb(0, 0, 0);
@@ -27,24 +29,26 @@
 } 
 
 .myIcon {
-    color:rgb(0, 0, 0) ;
+    color:#a68d6e ;
     font-size: 38px;
 }
-
+li {
+    color: #b79b78;
+}
 #myB {
     padding: 5px;
     font-size: large;
     font-weight: bold;
-    background-color: rgb(94, 94, 94);
-    color: white;
+    background-color:#c1ac80;
+    color: rgb(255, 255, 255);
     border-radius: 6px;
     width: 140px;
     border: none;
 }
 
 #myB:active {
-    background-color: rgb(226, 181, 121);
-    border-color: rgb(240, 188, 122);
+    background-color:transparent;
+    border-color:transparent;
 }
 
 
