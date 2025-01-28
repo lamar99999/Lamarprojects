@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(rosybrown,rgb(113, 0, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: "Imperial Script", serif;
+    font-weight: 500;
+    font-size: 55px;
+    text-shadow: 0 5px 6px rgb(255, 234, 197) ;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#qrInput {
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 22px;
+    border-radius: 10px;
+    resize: none;
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#generateButton {
+    display: block;
+    margin: auto;
+    width: 80%;
+    max-width: 600px;
+    padding: 15px;
+    font-size: 22px;
+    background-color: rgb(159, 78, 78);
+    color: rgba(241, 224, 197, 0.76);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 9px rgba(245, 227, 198, 0.806);
+}
+
+#generateButton:hover {
+    cursor: pointer;
+    background-color: rgb(146, 39, 39);
+    transition: 0.5s;
+}
