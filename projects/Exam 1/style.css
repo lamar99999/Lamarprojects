@@ -1,0 +1,117 @@
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #405167;
+    max-height: 100vh;
+}
+
+#mainDiv {
+    background-color: #F4F4F8;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
+.img {
+    width: 150px;
+    margin-top: 20px;
+}
+#logoDiv {
+    text-align: center;
+}
+
+#firstH1 {
+    color: #405167;
+    font-size: 25px;
+}
+
+#orderDiv {
+    background-color: white;
+    padding: 20px;
+}
+
+#firstP {
+    font-weight: bold;
+}
+
+#orderButton {
+    width: 95%;
+    display: block;
+    margin: auto;
+    background-color: #3866DE;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#helpDiv {
+    background-color: #231F30;
+    display: flex;
+    justify-content: space-between;
+    padding:5px 10px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+i{
+    color: #231F30;
+    font-size: 20px;
+    
+}
+
+#helpButton{
+    background-color: #FDEE00;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#photoDiv {
+    display: flex;
+}
+
+.secondImg {
+    width: 150px;
+    margin: auto;
+    
+}
+
+#detilsDiv {
+    text-align: center;
+}
+
+#lastDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:400px ) {
+    .img {
+        width: 130px;
+    }
+    #firstH1 {
+        font-size: 20px;
+    }
+    .secondImg{
+        width: 50%;
+    }
+    #helpDiv {
+        font-size: 13px;
+    }
+    #helpButton {
+        font-size: 12px;
+    }
+    #lastDiv {
+        font-size: 14px;
+    }
+    #detilsDiv{
+        font-size: 15px;
+    }
+}
