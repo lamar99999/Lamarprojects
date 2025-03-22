@@ -115,3 +115,18 @@ i{
         font-size: 15px;
     }
 }
+
+#appsDiv {
+    display: flex;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#helpIcon{
+   margin-right: 5px;
+}
+
